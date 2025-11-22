@@ -1,13 +1,18 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
 # Ignore VS Code settings
 .vscode/
 
-# Ignore system files
-Thumbs.db
-.DS_Store
-
 # Ignore temporary files
-*.tmp
 *.log
+*.tmp
 
-# Ignore backups
-*~
+# Ignore build or cache folders (if any)
+dist/
+build/
+cache/
+
+# Ignore node_modules (in case someone adds JS later)
+node_modules/
